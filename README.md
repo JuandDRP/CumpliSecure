@@ -36,7 +36,7 @@
 ### 🧰 Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/cumplisecure.git
+git clone https://github.com/JuandDRP/CumpliSecure.git
 cd cumplisecure
 
 ```
