@@ -26,7 +26,7 @@ const Resultados = () => {
         setEvaluacion(data.evaluacion);
       } catch (err) {
         console.error(err);
-        setError("Error al obtener los resultados");
+        setError("No se han realizado auditorias");
       }
     };
 
