@@ -1,5 +1,5 @@
 const { MongoClient } = require('mongodb');
-const uri = 'https://cumplisecure-db.onrender.com';
+const uri = 'mongodb+srv://juanderodriguez:Blu742cBz7rWWUd3@db.swjciap.mongodb.net/';
 const client = new MongoClient(uri);
 let db;
 
