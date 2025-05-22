@@ -1,5 +1,10 @@
 # 🛡️ CumpliSecure
 
+Pagina Desplegada: https://cumplisecure.netlify.app/
+Servicios Back desplegados:
+https://cumplisecure-db.onrender.com
+https://cumplisecure.onrender.com
+
 **CumpliSecure** es una plataforma web diseñada para evaluar y mejorar el cumplimiento normativo en organizaciones, enfocándose en marcos como **ISO 27001** y el **NIST Cybersecurity Framework (CSF)**. Permite realizar auditorías, gestionar preguntas, visualizar resultados y ofrecer recomendaciones automáticas.
 
 ---
