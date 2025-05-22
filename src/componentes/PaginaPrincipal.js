@@ -12,7 +12,7 @@
 
 //     try {
 //       const response = await fetch(
-//         registrando ? "http://localhost:3001/crear" : "http://localhost:3001/usuario",
+//         registrando ? "https://cumplisecure.onrender.com/crear" : "https://cumplisecure.onrender.com/usuario",
 //         {
 //           method: "POST",
 //           headers: { "Content-Type": "application/json" },
@@ -87,7 +87,7 @@ function PaginaPrincipal({ setUsuario }) {
 
     try {
       const response = await fetch(
-        registrando ? "http://localhost:3001/crear" : "http://localhost:3001/usuario",
+        registrando ? "https://cumplisecure.onrender.com/crear" : "https://cumplisecure.onrender.com/usuario",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
