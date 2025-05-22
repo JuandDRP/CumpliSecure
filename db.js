@@ -1,5 +1,5 @@
 const { MongoClient } = require('mongodb');
-const uri = 'mongodb://root:rootpw@localhost:27017';
+const uri = 'https://cumplisecure-db.onrender.com';
 const client = new MongoClient(uri);
 let db;
 
