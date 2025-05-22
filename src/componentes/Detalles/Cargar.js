@@ -14,7 +14,7 @@ function Cargar() {
   useEffect(() => {
     const fetchPreguntas = async () => {
       try {
-        const response = await axios.get('http://localhost:3002/preguntas');
+        const response = await axios.get('https://cumplisecure-db.onrender.com/preguntas');
         setAuditoria(response.data);
         setLoading(false);
       } catch (err) {
@@ -71,7 +71,7 @@ function Cargar() {
     }
 
     try {
-      await axios.post('http://localhost:3002/auditoria', {
+      await axios.post('https://cumplisecure-db.onrender.com/auditoria', {
         uid,
         respuestas
       });
