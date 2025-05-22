@@ -20,7 +20,7 @@ const Resultados = () => {
 
     const obtenerEvaluacion = async () => {
       try {
-        const respuesta = await fetch(`http://localhost:3002/auditoria/${usuarioGuardado.uid}`);
+        const respuesta = await fetch(`https://cumplisecure-db.onrender.com/auditoria/${usuarioGuardado.uid}`);
         if (!respuesta.ok) throw new Error("No se pudo obtener la auditoría");
         const data = await respuesta.json();
         setEvaluacion(data.evaluacion);
